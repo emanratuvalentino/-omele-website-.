@@ -1,0 +1,158 @@
+/* Gaya umum */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000; /* Warna latar belakang hitam */
+    color: #fff; /* Warna teks putih */
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between; /* Mengatur agar elemen berada di sebelah kiri dan kanan */
+    align-items: center; /* Mengatur agar elemen berada pada garis vertikal yang sama */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; /* Mengatur agar elemen berada pada garis vertikal yang sama */
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Gaya nama toko */
+.logo {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Contoh gaya font */
+    font-size: 1.5rem;
+}
+
+/* Gaya khusus halaman */
+section {
+    padding: 2rem;
+}
+
+
+.home-section {
+    
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.home-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.home-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.home-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* about */
+
+.about-section {
+    background-color: #ffffff; /* Warna latar belakang abu-abu muda */
+    color: #000000; /* Warna teks gelap */
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Gaya khusus halaman */
+.products-section {
+    background-color: #fff; /* Warna latar belakang putih */
+    color: #000000; /* Warna teks gelap */
+    text-align: center;
+    padding: 5rem 0;
+    
+}
+
+.products-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content h2 {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.products-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* produck awal */
+.product-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    max-width: 300px;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.product-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-card p {
+    font-size: 1.1rem;
+    color: #555;
+}
+/* produk akhir */
+
+#products ul {
+    list-style: disc;
+}
+
+footer {
+    background-color: #000; /* Warna latar belakang hitam */
+    color: #fff; /* Warna teks putih */
+    text-align: center;
+    padding: 1rem;
+}
